@@ -1,1 +1,2 @@
 esse é um projeto para treino em html e css
+Um site basico para mostrar um estabelecimento novo em o que eles fazem!
