@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2? family= Justo & family= Sarala:wght@700 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+body {
+font-size: 100%;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabecalho-imagem {
+    height: 170px;
+}
+
+.cabecalho-menu {
+   display: flex; 
+   gap: 50px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color:rgb(158, 0, 0);
+    font-weight: 600;
+    font-size: 20px; 
+}
+
+.conteudo{
+    margin-bottom: 28px;
+    border-top: 0.4px solid rgb(5, 145, 0);
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color:green;
+}
